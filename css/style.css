@@ -1,0 +1,459 @@
+:root {
+    --accent-cl:#2196F3;
+    --black-cl: black;
+}
+.header {
+    /* top line bg */
+    background: #FFFFFF;
+    }
+.WebStudio {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: Raleway;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+    .logo {
+        color: blue;
+    }
+    .studio {
+        /* Студия */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: black;
+    text-decoration: none;
+    }
+    .studio:hover,
+    .studio:focus {
+        color: blue;
+    }
+    .studio {
+        color: var(--black-cl);
+    }
+    .current {
+        color: var(--accent-cl);
+    }
+    
+    .portfolio {
+        /* Портфолио */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    }
+    .portfolio:hover,
+    .portfolio:focus {
+        color: blue;
+    }
+    .current {
+        color: var(--accent-cl);
+    }
+    
+    .contacs {
+        /* Контакты */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    }
+    .contacs:hover,
+    .contacs:focus {
+        color: blue;
+    }
+    .mail {
+        /* info@devstudio.com */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    }
+    .mail:hover,
+    .mail:focus {
+        color: blue;
+    }
+    .nomber {
+        /* +38 096 111 11 11 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    }
+    .nomber:hover,
+    .nomber:focus {
+        color: blue;
+    }
+    .decide {
+        /* Bg */
+    background: #2F303A;
+    height: 300px;
+    }
+    .decision {
+        /* Эффективные решения для вашего бизнеса */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .button {
+        /* Заказать услугу */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 30px;
+        color: black;
+        letter-spacing: 0.06em;
+    
+    text-decoration: none;
+    }
+    
+        
+    }
+    .attention {
+        /* Внимание к деталям */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .considerations {
+        /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .punctuality {
+        /* Пунктуальность */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .task {
+        /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .planning {
+        /* Планирование */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .form {
+        /* Равным образом консультация с широким активом в значительной степени обуславливает. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .technology {
+        /* Современные технологии */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .significance {
+        /* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .doing {
+        /* Чем мы занимаемся */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .command{
+        background: #F5F4FA;
+    }
+    .our {
+        /* Наша команда */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .demyanenko {
+        /* Игорь Демьяненко */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .designer {
+        /* Product Designer */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .repin {
+        /* Ольга Репина */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .developer {
+        /* Frontend Developer */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .tarasov {
+        /* Николай Тарасов */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .marketing {
+        /* Marketing */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .ermakov {
+        /* Михаил Ермаков */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .ui {
+        /* UI Designer */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .footer {
+        /* Footer bg */
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+
+    background: #2F303A;
+    }
+    .fWebStudio {
+        /* WebStudio */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    }
+    .flogo {
+        color: white;
+    }
+    .adress {
+        /* г. Киев, пр-т Леси Украинки, 26 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+    .adress:hover,
+    .adress:focus {
+        color: blue;
+    }
+    .fmail {
+        /* info@example.com */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    }
+    .fmail:hover,
+    .fmail:focus {
+        color: blue;
+    }
+    .fnomber {
+        /* +38 099 111 11 11 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    }
+    .fnomber:hover,
+    .fnomber:focus {
+        color: blue;
+    }
+    .pfooter {
+        background: #2F303A;
+    }
+    .all {
+        /* Все */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+    }
+    .all:hover,
+    .all:focus {
+        color: white;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+    .btn {
+        background-color: #F5F4FA;
+    }
+    .btn:hover {background-color: blue;
+    }
+    
+    
+    .list {
+        list-style: none;
+    }
+    
