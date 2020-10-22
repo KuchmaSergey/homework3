@@ -156,11 +156,11 @@
     .decide {
         /* Bg */
     background: #2F303A;
-    height: 300px;
+    /*height: 300px;
     width: 1600px;
     height: 600px;
     left: 0px;
-    top: 80px;
+    top: 80px;*/
     }
     .decision {
         /* Эффективные решения для вашего бизнеса */
@@ -187,8 +187,6 @@
     text-decoration: none;
     }
     
-        
-    }
     .attention {
         /* Внимание к деталям */
     font-family: Roboto;
@@ -204,7 +202,7 @@
         /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
@@ -226,7 +224,7 @@
         /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
@@ -500,12 +498,7 @@
         color: white;
     }
     
-    
     .list {
         list-style: none;
     }
-    .container {
-    
-    
-    }
-    
+  
