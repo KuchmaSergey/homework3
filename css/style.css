@@ -98,6 +98,29 @@ address {
 .btn:hover {background-color: blue;
     color: white;
 }
+.btnport {
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: var(--grey-bag-cl);
+    border-radius: 4px
+}
+.portbtn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+}
+.zadacha {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,144;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-cl);
+}
 
 .title {
     font-family: Roboto,sans-serif;
