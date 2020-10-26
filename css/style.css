@@ -7,6 +7,9 @@
     --grey-bag-cl: #F5F4FA;
     --rgb: rgba(255, 255, 255, 0.6)
 }
+html {
+    box-sizing: border-box;
+}
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -14,11 +17,26 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-cl);
 }
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+}
 address {
     font-style: normal;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .link {
     color: inherit;
