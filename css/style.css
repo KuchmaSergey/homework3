@@ -20,8 +20,17 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
     margin-top: 0;
+}
+p {
+    margin-bottom: 50px;
+  }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 address {
     font-style: normal;
@@ -45,6 +54,33 @@ address {
 .link:hover,
 .link:focus {
     color: var(--accent-cl);
+}
+.header {
+    background-color: tomato;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .logohed {
+    margin-right: 93px;
+}
+.header .mail-link {
+    margin-right: 50px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.menu {
+    display: inline-flex;
+}
+.menu-item:not(:last-child) {
+    margin-right: 50px;
 }
 .logohed {
     font-family: Raleway,sans-serif;
@@ -103,16 +139,34 @@ address {
     .current {
         color: var(--accent-cl);
     }
+    .hero {
+        margin-bottom: 94px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        font-weight: 900;
+        margin-right: auto;
+        margin-left: auto;
+    }
 .btn {
     /* Заказать услугу */
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.875;
+    text-align: center;
     color: var(--white-cl);
     letter-spacing: 0.06em;
-    background-color: transparent;
+    background-color: var(--accent-cl);
 }
+  
 .btn:hover {background-color: var(--accent-cl);
     color: white;
 }
@@ -147,16 +201,17 @@ address {
     color: var(--black-cl);
 }
 .page-title {
-    font-family: Roboto,sans-serif;
-    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 30px;
+    max-width: 696px;
+    color: var(--white);
     font-size: 44px;
-    line-height: 1,36;  
-    text-align: center;
+    font-weight: 900;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--black-cl);
-
 }
+
 .section-title {
     font-size: 36px;
     line-height: 1,167; 
