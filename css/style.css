@@ -42,10 +42,15 @@ address {
     margin-right: auto;
     margin-left: auto;
 }
+
 .list {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+.footerlist {
+    list-style: none;
 }
 .link {
     color: inherit;
@@ -140,16 +145,17 @@ address {
         color: var(--accent-cl);
     }
     .hero {
-        margin-bottom: 94px;
-        letter-spacing: 0.06em;
-        text-align: center;
-        height: 600px;
-        display: flex;
-        align-items: center;
-        font-weight: 900;
-        margin-right: auto;
-        margin-left: auto;
-    }
+     padding-top: 200px;
+     max-width: 770px;
+     margin-bottom: 94px;
+     letter-spacing: 0.06em;
+     text-align: center;
+     height: 600px;
+     align-items: center;
+     font-weight: 900;
+     margin-right: auto;
+     margin-left: auto;
+ }
 .btn {
     /* Заказать услугу */
     display: inline-block;
@@ -165,10 +171,16 @@ address {
     color: var(--white-cl);
     letter-spacing: 0.06em;
     background-color: var(--accent-cl);
+    
 }
   
 .btn:hover {background-color: var(--accent-cl);
     color: white;
+}
+
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .btnport {
     height: 38px;
@@ -185,14 +197,69 @@ address {
     letter-spacing: 0.03em;
     color: var(--black-cl);
 }
+.skills {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+}
 .zadacha {
-    font-weight: bold;
     font-size: 14px;
     line-height: 1,144;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-cl);
+    margin-bottom: 10px;
 }
+.text {
+    margin-bottom: 0px;
+    line-height: 1.714;
+    max-width: 270px;
+}
+.text:not(:last-child) {
+    margin-right: 30px;
+}
+.whatwedo {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.whatwedo-list {
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+
+}
+.whatwedo-item {
+    padding-bottom: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+}
+.team-bg {
+    background-color: var(--grey);
+}
+.team {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+}
+.team-item {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+    background-color: var(--white);
+  }
+.photo-team {
+    margin-bottom: 30px;
+  }
 
 .title {
     font-family: Roboto,sans-serif;
@@ -222,6 +289,7 @@ address {
     line-height: 1,187;
     text-align: center;
     color: var(--black-cl);
+    margin-bottom: 10px;
 }
 .team-position {
     text-align: center;
@@ -229,6 +297,9 @@ address {
     line-height: 1,187;
     letter-spacing: 0.03em;
     color: var(--main-text-cl);
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .label {
@@ -237,6 +308,13 @@ address {
     line-height: 1,18;
     text-align: center;
     color: var(--main-text-cl);
+}
+.fotter {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 .dark-bg {
     background-color: var(--dark-bg-cl);
