@@ -10,7 +10,14 @@
 html {
     box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1,71;
@@ -47,8 +54,13 @@ address {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+.skills-list {
     display: flex;
-}
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+ }
 .footerlist {
     list-style: none;
 }
@@ -61,7 +73,7 @@ address {
     color: var(--accent-cl);
 }
 .header {
-    background-color: tomato;
+    background-color: var(--white-cl);
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -134,50 +146,54 @@ address {
     letter-spacing: 0.02em;
     color: var(--black-cl);
 }
-    .studio:hover,
-    .studio:focus {
-        color: var(--accent-cl);
-    }
-    .studio {
-        color: var(--black-cl);
-    }
-    .current {
-        color: var(--accent-cl);
-    }
-    .hero {
-     padding-top: 200px;
-     max-width: 770px;
-     margin-bottom: 94px;
-     letter-spacing: 0.06em;
-     text-align: center;
-     height: 600px;
-     align-items: center;
-     font-weight: 900;
-     margin-right: auto;
-     margin-left: auto;
+.studio:hover,
+.studio:focus {
+    color: var(--accent-cl);
+}
+.studio {
+    color: var(--black-cl);
+}
+.current {
+    color: var(--accent-cl);
+}
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero-content {
+    text-align: center;
  }
+    
 .btn {
     /* Заказать услугу */
     display: inline-block;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding: 10px 32px;
-    min-width: 200px;
     font-family: inherit;
-    font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
     text-align: center;
-    color: var(--white-cl);
-    letter-spacing: 0.06em;
-    background-color: var(--accent-cl);
-    
+    border: none;
+    border-radius: 4px;
 }
-  
-.btn:hover {background-color: var(--accent-cl);
-    color: white;
+.hero-btn {
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    min-width: 200px;
+    padding: 10px 32px;
+    background-color: var(--accent-color);
+    color: var(--white);
+  }
+  .btn:hover,
+  .btn:focus {
+  background-color: rgba(33, 150, 243, 0.75);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.btn:active {
+  background-color: rgba(33, 150, 243, 0.5);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .about {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -197,42 +213,33 @@ address {
     letter-spacing: 0.03em;
     color: var(--black-cl);
 }
-.skills {
+.skills-item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 4 - 30px);
-}
+  }
 .zadacha {
     font-size: 14px;
     line-height: 1,144;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--black-cl);
-    margin-bottom: 10px;
+    margin-bottom: 10px;  
 }
 .text {
     margin-bottom: 0px;
     line-height: 1.714;
-    max-width: 270px;
 }
 .text:not(:last-child) {
     margin-right: 30px;
 }
 .whatwedo {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1,167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--black-cl);
-    padding-top: 0;
-    padding-bottom: 50px;
+    padding-top: 0;  
 }
 .whatwedo-list {
+    display: flex; 
     flex-wrap: wrap;
     margin-top: -30px;
-    margin-left: -30px;
-
+    margin-left: -30px;  
 }
 .whatwedo-item {
     padding-bottom: 0;
@@ -241,34 +248,29 @@ address {
     flex-basis: calc(100% / 3 - 30px);
 }
 .team-bg {
-    background-color: var(--grey);
+    background-color: var(--grey-bag-cl);
 }
-.team {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1,167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--black-cl);
-}
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
 .team-item {
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc(100% / 4 - 30px);
     background-color: var(--white);
-  }
+}
 .photo-team {
     margin-bottom: 30px;
   }
 
 .title {
-    font-family: Roboto,sans-serif;
     font-weight: 700;
-    letter-spacing: 0.03em;
     color: var(--black-cl);
 }
 .page-title {
-    display: inline-block;
     margin-bottom: 30px;
     max-width: 696px;
     color: var(--white);
@@ -277,11 +279,14 @@ address {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section-title {
     font-size: 36px;
     line-height: 1,167; 
+    text-align: center;
 }
 .name {
     font-weight: 500;
@@ -289,16 +294,15 @@ address {
     line-height: 1,187;
     text-align: center;
     color: var(--black-cl);
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
 }
 .team-position {
-    text-align: center;
-    font-size: 16px;
-    line-height: 1,187;
     letter-spacing: 0.03em;
     color: var(--main-text-cl);
     padding-bottom: 30px;
     margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.188;
     text-align: center;
 }
 
@@ -313,9 +317,13 @@ address {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.fotter .logofot {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
-}
+  }
 .dark-bg {
     background-color: var(--dark-bg-cl);
 }
