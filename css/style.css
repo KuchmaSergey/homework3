@@ -43,6 +43,9 @@ img {
 address {
     font-style: normal;
 }
+.hiden-name {
+    display: none;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
